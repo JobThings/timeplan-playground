@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.grid-area {
+    width: 200px;
+    height: 500px;
+    background-color: #eee;
+    cursor: cell;
+}
+.hover-cell {
+    position: absolute;
+    background-color: #8d8;
+    border: 2px solid #282;
+    width: 200px;
+    box-sizing: border-box;
+}

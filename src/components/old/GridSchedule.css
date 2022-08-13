@@ -1,0 +1,42 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.schedule-container {
+    display: flex;
+    flex: 0;
+}
+.schedule-row {
+    background-color: #e0e0e0;
+    flex-direction: row;
+    padding: 2px;
+}
+.schedule-column-header {
+    text-align: center;
+    min-height: 10px;
+}
+.schedule-row-header {
+    height: 50px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+.schedule-cell {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    width: 140px;
+    height: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.schedule-cell:nth-child(odd){
+    background-color: #f8f8f8;
+}
+.schedule-cell.booked {
+    background-color: #CFE9D8;
+    border-radius: 5px;
+}
+.schedule-cell:hover {
+    background-color: #FDE6B6;
+}
+/*.schedule-cell:hover + .schedule-cell {
+    background-color: #bfb;
+}*/
